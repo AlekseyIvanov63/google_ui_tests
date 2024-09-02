@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-class BaseElement:
+class BasePage:
 
     def __init__(self, browser):
         self.browser = browser
