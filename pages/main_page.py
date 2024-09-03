@@ -21,7 +21,7 @@ class MainPage(BasePage):
 
     @allure.step('Посмотреть отображение данных "Кошка" в поле "Поиск"')
     def displayed_data_cat(self):
-        assert self.browser.find_element(*self.SEARCH_FIELD).get_attribute('value') == "Кошка"
+            assert self.browser.find_element(*self.SEARCH_FIELD).get_attribute('value') == "Кошка"
 
     @allure.step('Кликнуть кнопку "Поиск в Google"')
     def click_search_google(self):
